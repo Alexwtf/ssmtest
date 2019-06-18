@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ln.Dao.MemberDao">
+    <resultMap id="baseMap" type="Member">
+        <id property="id" column="id"></id>
+        <result property="memberCode" column="member_code"/>
+        <result property="mobile" column="mobile"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+    <sql id="tName">
+        ej_shlt_member_info
+    </sql>
+
+    <sql id="baseColumn">
+        id,member_code,mobile,name
+    </sql>
+    
+    <select id="findByMobile" resultMap="baseMap" parameterType="java.lang.String">
+        SELECT
+          <include refid="baseColumn"/>
+        FROM
+          <include refid="tName"/>
+        WHERE
+          mobile=#{mobile}
+    </select>
+
+    <select id="findByCode" resultMap="baseMap" parameterType="java.lang.String">
+        SELECT
+        <include refid="baseColumn"/>
+        FROM
+        <include refid="tName"/>
+        WHERE
+        mobile=#{member_code}
+    </select>
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo-ops/dubbo-admin.iml" filepath="$PROJECT_DIR$/../incubator-dubbo-ops/dubbo-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo-ops/dubbo-admin-distribution/dubbo-admin-distribution.iml" filepath="$PROJECT_DIR$/../incubator-dubbo-ops/dubbo-admin-distribution/dubbo-admin-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo-ops/dubbo-admin-server/dubbo-admin-server.iml" filepath="$PROJECT_DIR$/../incubator-dubbo-ops/dubbo-admin-server/dubbo-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo-ops/dubbo-admin-ui/dubbo-admin-ui.iml" filepath="$PROJECT_DIR$/../incubator-dubbo-ops/dubbo-admin-ui/dubbo-admin-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmtest.iml" filepath="$PROJECT_DIR$/ssmtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmtest-api/ssmtest-api.iml" filepath="$PROJECT_DIR$/ssmtest-api/ssmtest-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmtest-dao/ssmtest-dao.iml" filepath="$PROJECT_DIR$/ssmtest-dao/ssmtest-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmtest-entity/ssmtest-entity.iml" filepath="$PROJECT_DIR$/ssmtest-entity/ssmtest-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmtest-service/ssmtest-service.iml" filepath="$PROJECT_DIR$/ssmtest-service/ssmtest-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmtest-web/ssmtest-web.iml" filepath="$PROJECT_DIR$/ssmtest-web/ssmtest-web.iml" />
+    </modules>
+  </component>
+</project>
